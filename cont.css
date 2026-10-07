@@ -1,54 +1,60 @@
 body {
     margin: 0;
-    padding: 0;
-    background: #dfe3df;
     font-family: Arial, sans-serif;
+    background: #dfe3df;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-fieldset {
+.page {
     width: 80%;
     max-width: 900px;
     background: rgba(190, 220, 220, 0.9);
     border: 1px solid #aaa;
-    padding: 25px 30px;
+    padding: 30px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 h1 {
     text-align: center;
     font-size: 36px;
+    font-weight: bold;
+    color: #1b3b3a;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.intro {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #1b3b3a;
+    font-family: "Times New Roman", serif;
+}
+
+h2 {
+    font-size: 28px;
     color: #1b3b3a;
     margin-bottom: 10px;
     font-family: "Times New Roman", serif;
 }
 
-.p1 {
-    text-align: center;
-    font-size: 22px;
-    color: #1b3b3a;
-    margin-bottom: 15px;
-    font-family: "Times New Roman", serif;
-}
-
-hr {
-    border: 1px solid #1b3b3a;
-    margin: 15px 0;
-}
-
-.p2 {
+ul {
     font-size: 20px;
+    line-height: 1.8;
     color: #1b3b3a;
-    line-height: 1.7;
-    margin: 10px 0 20px;
-    font-family: "Times New Roman", serif;
 }
 
-a {
+ul a, .footer a {
     color: #1a3bff;
     text-decoration: underline;
+}
+
+.footer {
+    margin-top: 20px;
     font-size: 20px;
+    color: #1b3b3a;
+    font-family: "Times New Roman", serif;
 }
